@@ -16,3 +16,10 @@ git push -u origin main
 
 git status
 git log
+
+
+..we can check the diff between versions —
+git diff test.txt
+
+..to revert back to a previous version —
+git checkout test.txt
