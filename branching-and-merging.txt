@@ -1,0 +1,17 @@
+# BRANCHING AND MERGING
+
+Branching off of main..
+git branch [branch-name]
+
+When adding something like a new feature, we branch it from main. 
+Main will still be maintained and fixed while the feature is being worked on.
+Once the feature is completely developed, the new version can be merged into the maiin brannch again.
+
+git merge [branch-name]
+
+main:      1---2---3---4---5
+           |   \     /
+feature 1: |    3---4
+           \
+feature 2:  2---3---4
+

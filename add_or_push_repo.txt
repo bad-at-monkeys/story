@@ -31,3 +31,17 @@ The process will typically go:
 To remove staged files —
 git rm --cached -r
 
+
+When adding a new node project, the whole process looks sort of like this (using /Test) —
+  591  npm i
+  592  touch .gitignore
+  593  vim .gitignore 
+  594  git init
+  595  git add .
+  596  git status
+  597  git remote -v
+  598  git commit -m "Initial commit; Add .gitignore; Add project.."
+  599  git branch -M main
+  600  git remote add origin https://github.com/bad-at-monkeys/learning-git.git
+  602  git push -u origin main
+  603  git log
