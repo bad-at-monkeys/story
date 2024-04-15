@@ -12,14 +12,22 @@ git remote add origin https://github.com/bad-at-monkeys/test.git
 git branch -M main
 git push -u origin main
 
-
-
 git status
 git log
-
 
 ..we can check the diff between versions —
 git diff test.txt
 
 ..to revert back to a previous version —
 git checkout test.txt
+
+..to check which remote repositories are —
+git remote -v
+
+The process will typically go:
+  working dir -> staging -> local repo -> remote repo
+        git add  -->  git commit  -->  git push
+
+To remove staged files —
+git rm --cached -r
+

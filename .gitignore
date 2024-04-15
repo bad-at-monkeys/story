@@ -1,0 +1,58 @@
+# Secrets #
+###########
+secrets.txt
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Editor generated files #
+##########################
+*.swp
+*.swo
+*.swn
+*.swm
+*.swo
+*.bak
+*.tmp
+*.cache
+*.log
+*.vscode/
+
+# Dependency directories #
+##########################
+node_modules/
+bower_components/
+
+# Build files #
+##############
+dist/
+build/
+out/
+
+# Environment files #
+#####################
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+*.env.local
+*.env.*.local
+
+# Miscellaneous #
+#################
+*.backup
+*.tgz
+*.zip
+*.rar
+*.gz
+*.gzip
+*.exe
+*.dll
+*.so
+*.dylib
+*.log
+*.sql
