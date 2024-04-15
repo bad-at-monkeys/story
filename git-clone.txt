@@ -1,0 +1,12 @@
+# GIT CLONE
+
+Cloning a remote repo on github to pull it to our local repo..
+git clone [url]
+
+Here we are cloning, installing deps, configuring, then running the quakejs project —
+  607  git clone https://github.com/inolen/quakejs.git
+  608  cd quakejs/
+  609  npm i
+  610  echo '{ "content": "content.quakejs.com" }' > bin/web.json
+  611  node bin/web.js --config ./web.json
+
