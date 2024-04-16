@@ -2,6 +2,7 @@
 
 Branching off of main..
 git branch [branch-name]
+git checkout -b [new-branch]  # 
 
 When adding something like a new feature, we branch it from main. 
 Main will still be maintained and fixed while the feature is being worked on.
@@ -15,3 +16,25 @@ feature 1: |    3---4
            \
 feature 2:  2---3---4
 
+  616  git log
+  617  git branch alien-plot
+  618  git branch western-plot
+  619  git checkout alien-plot
+  620  git add .
+  621  git commit -m "Modify chapters for the alien plot.."
+  622  git log
+  623  git branch
+  627  git checkout main
+  628  touch chapter4.txt
+  629  git add .
+  630  git rm --cached quakejs
+  631  git add .
+  632  git commit -m "Take more chapter notes; Add another chapter.."
+  633  git log
+  634  git remote -v
+  636  git push
+  637  git checkout main
+  638  git merge alien-plot 
+  639  git branch
+  640  git log
+  641  git push -u origin main
